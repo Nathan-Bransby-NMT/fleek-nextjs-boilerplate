@@ -1,10 +1,10 @@
-# Next.js SSR Starter Template
+# Fleek Next.js Boilerplate
 
 This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness Fleek’s optimized hosting for dynamic and performance-driven web applications
 
 ## Prerequisites
 
-- Node 18.18.0+
+- Node >= 18.18.0
 - Fleek Account
 - [Fleek CLI](https://fleek.xyz/docs/cli/)
 - [Fleek Next Adapter](https://www.npmjs.com/package/@fleek-platform/next)
@@ -15,13 +15,13 @@ This is the boilerplate code generated directly from running `npx create-next-ap
 2. Clone the repository by running the following command:
 
 ```bash
-git clone <https://github.com/><your-id>/nextjs-ssr-template.git
+git clone <https://github.com/><your-id>/fleek-nextjs-boilerplate.git
 ```
 
 1. Enter the correct directory, install dependencies, and run locally:
 
 ```bash
-cd nextjs-ssr-template
+cd fleek-nextjs-boilerplate
 npm i
 npm run dev
 ```
@@ -38,12 +38,17 @@ npm i -g @fleek-platform/cli
 npm i -g @fleek-platform/next
 
 ```
-
-💡: you can check the Fleek CLI version by running fleek -v. Any version >= 2.10.1 should be good. As for the Fleek Next adapter, you can check the Fleek Next Adapter version by running fleek-next -v. Any version >= 2.1.0 should be good.
+> [!NOTE]
+> You can check the Fleek CLI version by running `fleek -v`. Any version >= `2.10.1` should be good. 
+>
+> As for the Fleek Next adapter, you can check the Fleek Next Adapter version by running `fleek-next -v`.
+> Any version >= `2.1.0` should be good.
 
 ## Building and Deploying
 
-1. Build the project using the Fleek Next Adapter:
+### 1. Build the Project
+
+Build the project using the Fleek Next Adapter:
 
 ```bash
 npx fleek-next build
@@ -51,7 +56,9 @@ npx fleek-next build
 fleek-next build
 ```
 
-1. Now, Create the Fleek Function using the Fleek CLI:
+### 2. Create Fleek Function 
+
+Now, Create the Fleek Function using the Fleek CLI:
 
 ```bash
 //syntax
@@ -62,7 +69,9 @@ fleek functions create --name nextra-function
 
 ```
 
-1. Finally, deploy using the Fleek CLI:
+### 3. Deploy 
+
+Finally, deploy using the Fleek CLI:
 
 ```bash
 //syntax
